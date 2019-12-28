@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity3"
+    android:orientation="vertical"
+    android:background="@mipmap/ic_launcher_4_foreground"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tes"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+        android:background="#4fc3f7"
+        android:alpha="0.8"
+        >
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value31"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick1"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value32"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick2"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value33"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick3"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value34"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick4"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value35"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick5"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value36"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick6"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value37"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick7"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value38"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick8"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value39"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick9"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value310"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick10"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value311"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick11"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value312"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick12"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value313"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick13"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value314"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick14"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value315"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick15"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value316"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick16"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value317"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="onClick17"
+            android:scaleType="centerCrop"
+            android:background="#4fc3f7"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

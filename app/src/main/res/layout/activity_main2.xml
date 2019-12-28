@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <Button
+            android:id="@+id/value1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher_6_foreground"
+            android:onClick="openList1"
+            android:textColor="#263238"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        />
+
+        <Button
+            android:id="@+id/value2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher_7_foreground"
+            android:onClick="openList2"
+            android:alpha="0.6"
+            android:textColor="#000a12"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            />
+
+        <Button
+            android:id="@+id/value3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher_4_foreground"
+            android:onClick="openList3"
+            android:alpha="0.8"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            />
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher_5_foreground"
+        android:id="@+id/value4"
+        android:onClick="openList4"
+        android:textColor="#00251a"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:bottomRightRadius="100dp"
+        android:bottomLeftRadius="100dp"
+        android:topLeftRadius="100dp"
+        android:topRightRadius="100dp"
+        />
+
+
+
+
+</LinearLayout>

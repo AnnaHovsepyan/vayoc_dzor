@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity1"
+        android:orientation="vertical"
+        android:background="@mipmap/ic_launcher_6_foreground"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patmutyun"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical"
+            android:background="#4db6ac"
+            android:alpha="0.5"
+            >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#4db6ac"
+                    android:textColor="#000000"
+                    android:onClick="onClick11"
+                    android:id="@+id/value11"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"
+                    android:background="#4db6ac"
+                    android:onClick="onClick12"
+                    android:id="@+id/value12"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#4db6ac"
+                    android:onClick="onClick13"
+                    android:id="@+id/value13"
+                    android:textStyle="bold"
+                    />
+
+
+                <Button
+                    android:id="@+id/value14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#4db6ac"
+                    android:onClick="onClick14"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/value15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#4db6ac"
+                    android:onClick="onClick15"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/value16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:layout_marginTop="8dp"
+                    android:background="#4db6ac"
+                    android:onClick="onClick16"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/value17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#4db6ac"
+                    android:onClick="onClick17"
+                    android:textStyle="bold"
+                    />
+
+
+                <Button
+                    android:id="@+id/value18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#4db6ac"
+                    android:onClick="onClick18"
+                    android:textStyle="bold"
+                    />
+
+
+
+</LinearLayout>
+            </LinearLayout>
+</ScrollView>

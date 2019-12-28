@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity2"
+        android:orientation="vertical"
+    android:background="@mipmap/ic_launcher_7_foreground"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cities"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="15dp"/>
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginLeft="25dp"
+    android:orientation="vertical"
+    android:background="#8d6e63"
+    android:alpha="0.8"
+    >
+v
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value21"
+            android:layout_weight="1"
+            android:layout_marginLeft="6dp"
+            android:onClick="yexegnadzor"
+            android:scaleType="centerCrop"
+            android:background="#8d6e63"
+
+            />
+
+    <Button
+        android:id="@+id/value22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="1"
+        android:onClick="jermuk"
+        android:textStyle="bold"
+        android:background="#8d6e63"
+
+        />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/value23"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:onClick="vayk"
+        android:background="#8d6e63"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
+    </LinearLayout>
